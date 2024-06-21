@@ -1,3 +1,4 @@
+import Projects from './components/Description/Projects'
 import AboutMe from './components/Description/AboutMe'
 import Description from './components/Description/Description'
 import Navbar from './components/Navbar/Navbar'
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar />
       <Description />
       <AboutMe />
+      <Projects />
 
 
     </div>

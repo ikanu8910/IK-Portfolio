@@ -13,7 +13,7 @@ const AboutMe = () => {
         
         <div className="w-full lg:w-1/2">
             <div className="flex justify-center lg:justify-start">
-                <p className="my-2 max-w-4xl py-6">{ABOUTME_CONTENT}</p>
+                <p className="my-2 max-w-xl py-6">{ABOUTME_CONTENT}</p>
 
             </div>
         </div>
