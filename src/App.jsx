@@ -1,7 +1,7 @@
-import Projects from './components/Description/Projects'
-import AboutMe from './components/Description/AboutMe'
-import Description from './components/Description/Description'
-import Navbar from './components/Navbar/Navbar'
+import Projects from './components/Projects'
+import AboutMe from './components/AboutMe'
+import Description from './components/Description'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (

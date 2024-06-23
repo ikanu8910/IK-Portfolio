@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 
 
-export const ABOUTME_CONTENT = `I am a technically driven creative who loves to build, create, and design beautiful human experiences.`;
+export const ABOUTME_CONTENT = `I am a technically driven creative who loves to create and design beautiful human experiences.`;
 
 
 export const PROJECTS = [
