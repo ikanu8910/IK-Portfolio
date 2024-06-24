@@ -9,11 +9,19 @@ const Navbar = () => {
           <>Isha Kanu</>
           
           <div className="m-8 flex items-center justify-center gap-4 py-2xl">
-          <SiAboutdotme />
-          <GoProjectRoadmap />
-          <a href="https://github.com/ikanu8910" target="_blank">
+
+          <a href="#about-me">
+            <SiAboutdotme />
+          </a>
+          
+          <a href="#projects">
+            <GoProjectRoadmap />
+          </a>
+
+          <a href="https://github.com/ikanu8910?tab=repositories" target="_blank">
             <FaGithub />
           </a>
+
           </div>
       
       </nav>
