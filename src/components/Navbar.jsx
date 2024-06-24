@@ -11,7 +11,9 @@ const Navbar = () => {
           <div className="m-8 flex items-center justify-center gap-4 py-2xl">
           <SiAboutdotme />
           <GoProjectRoadmap />
-          <FaGithub />
+          <a href="https://github.com/ikanu8910" target="_blank">
+            <FaGithub />
+          </a>
           </div>
       
       </nav>
