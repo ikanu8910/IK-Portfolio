@@ -2,6 +2,7 @@ import Projects from './components/Projects'
 import AboutMe from './components/AboutMe'
 import Description from './components/Description'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Description />
       <AboutMe />
       <Projects />
+      <Footer/>
 
 
     </div>
