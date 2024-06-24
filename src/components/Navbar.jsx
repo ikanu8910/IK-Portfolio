@@ -1,5 +1,3 @@
-import "./Navbar.css"
-
 import { SiAboutdotme } from "react-icons/si"
 import { GoProjectRoadmap } from "react-icons/go"
 import { FaGithub } from "react-icons/fa"

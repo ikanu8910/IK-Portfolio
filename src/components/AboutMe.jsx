@@ -1,13 +1,23 @@
 import aboutImg from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/about.jpg"
+import { motion } from "framer-motion"
 
 const AboutMe = () => {
   return (
+    
     <div className="flex flex-wrap justify-center">
-        <div className="w-full max-w-96 lg:p-8">
+        <motion.div 
+        initial={{ opacity: 0, x:-100 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1.25, delay: 1 }}
+        className="w-full max-w-96 lg:p-8">
             <img className="rounded-2xl" src={aboutImg} alt="about" />
-        </div>
+        </motion.div>
         
-        <div className="w-full lg:w-1/2">
+        <motion.div 
+        initial={{ opacity: 0, x:100 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1.25, delay: 1 }}
+        className="w-full lg:w-1/2">
             <p className="my-2 max-w-xl py-6 text-2xl">I am a technically driven creative who loves to create and design beautiful human experiences</p>
 
             <div className="container mx-auto grid grid-cols-3">
@@ -46,7 +56,7 @@ const AboutMe = () => {
                 </div>
             </div>
 
-        </div>
+        </motion.div>
 
         
       
