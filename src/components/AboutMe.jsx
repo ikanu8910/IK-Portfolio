@@ -1,4 +1,5 @@
-import aboutImg from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/about.jpg"
+import profilepic from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/headshot.jpg"
+
 import { motion } from "framer-motion"
 
 const AboutMe = () => {
@@ -11,7 +12,7 @@ const AboutMe = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1.25, delay: 1 }}
             className="w-full max-w-96 lg:p-8">
-                <img className="rounded-2xl" src={aboutImg} alt="about" />
+                <img className="rounded-2xl" src={profilepic} alt="Headshot" />
             </motion.div>
             
             <motion.div 

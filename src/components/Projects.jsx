@@ -1,4 +1,7 @@
-import aboutImg from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/about.jpg"
+import DTLP from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/DT-landing-page.jpg"
+import hololens from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/Hololens-screenshot.jpg"
+import VR from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/VR-puzzle-screenshot.jpg"
+
 import { motion } from "framer-motion"
 
 const Projects = () => {
@@ -21,11 +24,11 @@ const Projects = () => {
           transition={{ duration: 1.5, delay: 0 }}
           className="container mx-auto grid grid-cols-3 justify-items-center">
 
-              <div className="max-w-80 pb-22 pt-10">
+              <div className="max-w-100 pb-22 pt-10">
                 <a href="https://github.com/ikanu8910/DISH-Technologies-ITONICS-Landing-Page.git" target="_blank" className="font-bold text-xl underline">DISH Technologies</a>
                   <p className="pb-2">Innovation Management Platform Landing Page For Hardware Engineering</p>
                     <a href="https://github.com/ikanu8910/DISH-Technologies-ITONICS-Landing-Page.git" target="_blank">
-                      <img className="rounded-2xl pb-2" src={aboutImg} alt="about" />
+                      <img className="rounded-2xl pb-2" src={DTLP} alt="DT Landing Page" />
                     </a>
                       <span className="mr-2 rounded bg-neutral-100 px-2 py-1 text-sm font-medium text-purple-500">Design</span>
                       <span className="mr-2 rounded bg-neutral-100 px-2 py-1 text-sm font-medium text-purple-500">Development</span>
@@ -36,18 +39,18 @@ const Projects = () => {
                 <a href="https://github.com/ikanu8910/AR-Hololens-CPR-Guide.git" target="_blank" className="font-bold text-xl underline">Hololens CPR Guide</a>
                   <p className="pb-2">Augmented Reality CPR Guide that displays the Red Cross CPR instructions</p>
                     <a href="https://github.com/ikanu8910/AR-Hololens-CPR-Guide.git" target="_blank">
-                      <img className="rounded-2xl pb-2" src={aboutImg} alt="about" />
+                      <img className="rounded-2xl pb-2" src={hololens} alt="Hololens screenshot" />
                     </a>
                       <span className="mr-2 rounded bg-neutral-100 px-2 py-1 text-sm font-medium text-purple-500">Design</span>
                       <span className="mr-2 rounded bg-neutral-100 px-2 py-1 text-sm font-medium text-purple-500">Development</span>
                       <span className="mr-2 rounded bg-purple-300 px-2 py-1 text-sm font-medium text-neutral-100">2021</span>
               </div>
 
-              <div className="max-w-80 pb-22 pt-10">
+              <div className="max-w-100 pb-22 pt-10">
                 <a href="https://github.com/ikanu8910/VR-Escape-Room.git" target="_blank" className="font-bold text-xl underline">VR Escape Room</a>
                   <p className="pb-8">3 Puzzle Virtual Reality Escape Room</p>
                     <a href="https://github.com/ikanu8910/VR-Escape-Room.git" target="_blank">
-                      <img className="rounded-2xl pb-2" src={aboutImg} alt="about" />
+                      <img className="rounded-2xl pb-2" src={VR} alt="VR screenshot" />
                     </a>
                       <span className="mr-2 rounded bg-neutral-100 px-2 py-1 text-sm font-medium text-purple-500">Design</span>
                       <span className="mr-2 rounded bg-neutral-100 px-2 py-1 text-sm font-medium text-purple-500">Development</span>
