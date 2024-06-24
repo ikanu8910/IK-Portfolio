@@ -1,25 +1,19 @@
 import aboutImg from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/about.jpg"
-import { ABOUTME_CONTENT } from "../constants/index"
 
 const AboutMe = () => {
   return (
-    <div className="flex flex-wrap">
-        <div className="w-full max-w-96 lg:w-1/2 lg:p-8">
-            <div className="flex items-center justify-center">
-                <img className="rounded-2xl" src={aboutImg} alt="about" />
-
-            </div>
+    <div className="flex flex-wrap justify-center">
+        <div className="w-full max-w-96 lg:p-8">
+            <img className="rounded-2xl" src={aboutImg} alt="about" />
         </div>
         
         <div className="w-full lg:w-1/2">
-            <div className="flex justify-center lg:justify-start">
-                <p className="my-2 max-w-xl py-6 text-2xl">{ABOUTME_CONTENT}</p>
-            </div>
+            <p className="my-2 max-w-xl py-6 text-2xl">I am a technically driven creative who loves to create and design beautiful human experiences</p>
 
             <div className="container mx-auto grid grid-cols-3">
                 <div>
-                    <h2 className="font-bold text-lg">//Designer</h2>
-                        <ul class="indent-2">
+                    <h2 className="font-bold text-lg text-purple-400">//Designer</h2>
+                        <ul className="indent-3">
                             <li>UX Design</li>
                             <li>UI Design</li>
                             <li>CAD Design</li>
@@ -28,8 +22,8 @@ const AboutMe = () => {
                         </ul>
                 </div>
                 <div>
-                    <h2 className="font-bold text-lg">//Developer</h2>
-                        <ul class="indent-2">
+                    <h2 className="font-bold text-lg text-purple-400">//Developer</h2>
+                        <ul className="indent-3">
                             <li>Python</li>
                             <li>JavaScript</li>
                             <li>HTML / CSS</li>
@@ -40,8 +34,8 @@ const AboutMe = () => {
                         </ul>
                 </div>
                 <div>
-                    <h2 className="font-bold text-lg">//Researcher</h2>
-                        <ul class="indent-2">
+                    <h2 className="font-bold text-lg text-purple-400">//Researcher</h2>
+                        <ul className="indent-3">
                             <li>A/B Testing</li>
                             <li>Usability Testing</li>
                             <li>User Interviews</li>
