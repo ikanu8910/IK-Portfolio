@@ -1,8 +1,8 @@
-import Projects from './components/Projects'
-import AboutMe from './components/AboutMe'
-import Description from './components/Description'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Projects from '/Users/isha.kanu/Documents/GitHub/IKPort/src/components/Projects.jsx'
+import AboutMe from '/Users/isha.kanu/Documents/GitHub/IKPort/src/components/AboutMe.jsx'
+import Description from '/Users/isha.kanu/Documents/GitHub/IKPort/src/components/Description.jsx'
+import Navbar from '/Users/isha.kanu/Documents/GitHub/IKPort/src/components/Navbar.jsx'
+import Footer from '/Users/isha.kanu/Documents/GitHub/IKPort/src/components/Footer.jsx'
 
 const App = () => {
   return (
