@@ -28,7 +28,7 @@ const Projects = () => {
                 <a href="https://github.com/ikanu8910/DISH-Technologies-ITONICS-Landing-Page.git" target="_blank" className="font-bold text-xl underline">DISH Technologies</a>
                   <p className="pb-2">Innovation Management Platform Landing Page For Hardware Engineering</p>
                     <a href="https://github.com/ikanu8910/DISH-Technologies-ITONICS-Landing-Page.git" target="_blank">
-                      <img className="rounded-2xl pb-2" src={DTLP} alt="DT Landing Page" />
+                      <img className="rounded-2xl pb-2" src={DTLP} alt="DT-landing-page" />
                     </a>
                       <span className="mr-2 rounded bg-neutral-100 px-2 py-1 text-sm font-medium text-purple-500">Design</span>
                       <span className="mr-2 rounded bg-neutral-100 px-2 py-1 text-sm font-medium text-purple-500">Development</span>
