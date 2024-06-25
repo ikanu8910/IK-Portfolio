@@ -22,9 +22,9 @@ const Projects = () => {
           whileInView={{ x: 0, opacity: 1 }}
           initial={{ opacity: 0, x:100 }}
           transition={{ duration: 1.5, delay: 0 }}
-          className="container mx-auto grid grid-cols-3 justify-items-center">
+          className="container mx-auto grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 justify-items-center">
 
-              <div className="max-w-100 pb-22 pt-10">
+              <div className="max-w-80 pb-22 pt-10">
                 <a href="https://github.com/ikanu8910/DISH-Technologies-ITONICS-Landing-Page.git" target="_blank" className="font-bold text-xl underline">DISH Technologies</a>
                   <p className="pb-2">Innovation Management Platform Landing Page For Hardware Engineering</p>
                     <a href="https://github.com/ikanu8910/DISH-Technologies-ITONICS-Landing-Page.git" target="_blank">
@@ -46,7 +46,7 @@ const Projects = () => {
                       <span className="mr-2 rounded bg-purple-300 px-2 py-1 text-sm font-medium text-neutral-100">2021</span>
               </div>
 
-              <div className="max-w-100 pb-22 pt-10">
+              <div className="max-w-80 pb-22 pt-10">
                 <a href="https://github.com/ikanu8910/VR-Escape-Room.git" target="_blank" className="font-bold text-xl underline">VR Escape Room</a>
                   <p className="pb-8">3 Puzzle Virtual Reality Escape Room</p>
                     <a href="https://github.com/ikanu8910/VR-Escape-Room.git" target="_blank">
