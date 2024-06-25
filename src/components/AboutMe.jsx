@@ -22,7 +22,7 @@ const AboutMe = () => {
             className="w-full lg:w-1/2">
                 <p className="my-2 max-w-xl py-6 text-2xl">I am a technically driven creative who loves to create and design beautiful human experiences</p>
 
-                <div className="container mx-auto grid grid-cols-3">
+                <div className="container mx-auto grid grid-cols-3 lg:grid-cols-3">
                     <div>
                         <h2 className="font-bold text-lg text-purple-400">//Designer</h2>
                             <ul className="indent-3">
