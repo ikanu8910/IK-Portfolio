@@ -2,7 +2,7 @@
   "name": "ikport",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ikanu8910.github.io/ikanu8910.github.io",
+  "homepage": "https://ikanu8910.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
