@@ -1,4 +1,4 @@
-import profilepic from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/headshot.jpg"
+import profilepic from "/src/assets/headshot.jpg"
 
 import { motion } from "framer-motion"
 

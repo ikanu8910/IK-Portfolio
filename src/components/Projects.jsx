@@ -1,6 +1,6 @@
-import DTLP from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/DT-landing-page.jpg"
-import hololens from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/Hololens-screenshot.jpg"
-import VR from "/Users/isha.kanu/Documents/GitHub/IKPort/src/assets/VR-puzzle-screenshot.jpg"
+import DTLP from "/src/assets/DT-landing-page.jpg"
+import hololens from "/src/assets/Hololens-screenshot.jpg"
+import VR from "/src/assets/VR-puzzle-screenshot.jpg"
 
 import { motion } from "framer-motion"
 
