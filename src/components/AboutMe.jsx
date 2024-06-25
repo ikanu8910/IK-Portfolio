@@ -25,7 +25,7 @@ const AboutMe = () => {
                 <div className="container mx-auto grid grid-cols-3 lg:grid-cols-3">
                     <div>
                         <h2 className="font-bold text-lg text-purple-400">//Designer</h2>
-                            <ul className="indent-3">
+                            <ul>
                                 <li>UX Design</li>
                                 <li>UI Design</li>
                                 <li>CAD Design</li>
@@ -35,7 +35,7 @@ const AboutMe = () => {
                     </div>
                     <div>
                         <h2 className="font-bold text-lg text-purple-400">//Developer</h2>
-                            <ul className="indent-3">
+                            <ul>
                                 <li>Python</li>
                                 <li>JavaScript</li>
                                 <li>HTML / CSS</li>
@@ -47,7 +47,7 @@ const AboutMe = () => {
                     </div>
                     <div>
                         <h2 className="font-bold text-lg text-purple-400">//Researcher</h2>
-                            <ul className="indent-3">
+                            <ul>
                                 <li>A/B Testing</li>
                                 <li>Usability Testing</li>
                                 <li>User Interviews</li>
